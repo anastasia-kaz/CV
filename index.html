@@ -11,6 +11,7 @@
 <body class="wrapper">
 <header>
     <div class="overlay">
+
         <div>
             <img src="img/photo_2021-10-01_11-47-11.jpg" alt="photo" class="header_photo">
         </div>
@@ -22,15 +23,23 @@
             Junior Frontend Developer
         </h2>
         </div>
+
+        <div class="burger_menu burger header_nav_active">
+            <span class="burger_line burger_line_line_1"></span>
+            <span class="burger_line burger_line_line_2"></span>
+            <span class="burger_line burger_line_line_3"></span>
+        </div>
+        <div class="nav_menu_closed">
+            <span class="nav_menu_closed_line"></span>
+            <span class="nav_menu_closed_line"></span>
+        </div>
     </div>
+
+
 </header>
-<div class="hamburger-menu">
-    <input id="menu__toggle" type="checkbox" />
-    <label class="menu__btn" for="menu__toggle">
-        <span></span>
-    </label>
-    <nav>
-        <ul class="nav_list menu__box">
+
+    <nav class="navigation">
+        <ul class="nav_list">
             <li> <a href="#contact" class="nav_item"> Contact </a> </li>
             <li> <a href="#education" class="nav_item">Education</a> </li>
             <li> <a href="#courses" class="nav_item">Courses</a> </li>
@@ -40,7 +49,7 @@
             <li> <a href="#work" class="nav_item">Work experience</a> </li>
             <li> <a href="#code" class="nav_item">Code Examples</a> </li>
         </ul>
-    </nav></div>
+    </nav>
     <div class="content">
         <aside class="aside_boxes">
 
@@ -170,5 +179,6 @@
         <a href="https://rs.school/js/" class="footer_rs_school"></a>
     </div>
 </footer>
+<script src="main.js"></script>
 </body>
 </html>
