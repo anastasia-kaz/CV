@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>cv</title>
@@ -24,15 +24,15 @@
         </h2>
         </div>
         <button class="burger_btn">
-        <div class="burger_menu burger header_nav_active">
+        <span class="burger_menu burger header_nav_active">
             <span class="burger_line burger_line_line_1"></span>
             <span class="burger_line burger_line_line_2"></span>
             <span class="burger_line burger_line_line_3"></span>
-        </div>
-        <div class="nav_menu_closed">
+        </span>
+        <span class="nav_menu_closed">
             <span class="nav_menu_closed_line"></span>
             <span class="nav_menu_closed_line"></span>
-        </div>
+        </span>
         </button>
     </div>
 
@@ -57,11 +57,11 @@
         <section class="aside_box">
             <h2 class="aside_boxes_name" id="contact">Contact</h2>
             <ul class="aside_box_contact_list">
-                <a href="tel:375447259141"> <li class="tel">+375 (44) 725 91 41</li></a>
-                <a href="mail:anastasia-kaz@mail.ru"><li class="mail">anastasia-kaz@mail.ru</li></a>
-                <a href="tg:anastasia-kaz>"><li class="telega">Telegram</li></a>
-                <a href="https://www.linkedin.com/in/anastasia-kaz" target="_blank"><li class="linked">LinkedIn</li></a>
-                <a href="https://github.com/anastasia-kaz" target="_blank"><li class="github">GitHub</li></a>
+                <li class="tel"><a href="tel:375447259141"> +375 (44) 725 91 41</a></li>
+                <li class="mail"><a href="mailto:anastasia-kaz@mail.ru">anastasia-kaz@mail.ru</a></li>
+                <li class="telega"><a href="tg:anastasia-kaz">Telegram</a></li>
+                <li class="linked"><a href="https://www.linkedin.com/in/anastasia-kaz" target="_blank">LinkedIn</a></li>
+                <li class="github"><a href="https://github.com/anastasia-kaz" target="_blank">GitHub</a></li>
                 <li class="location">Minsk, Belarus</li>
             </ul>
         </section>
@@ -98,10 +98,10 @@
                 <li>English - A2 (improving to B1)</li>
             </ul>
         </section>
-    </aside>
+        </aside>
         <main class="main_content">
 
-    <section class="main_box">
+        <section class="main_box">
         <h2 class="aside_boxes_name" id="summary">Summary:</h2>
         <p>
             I am 21 years old, at the moment I work as a software testing engineer and study frontend.I like to
@@ -110,8 +110,7 @@
         </p>
     </section>
 
-
-    <section class="main_box skills"  id="skills">
+        <section class="main_box skills"  id="skills">
         <div>
             <h2 class="skills_name">Personal qualities:</h2>
             <ul class="skills_list">
@@ -136,16 +135,16 @@
             </ul>
         </div>
     </section>
-    <section class="main_box">
+
+        <section class="main_box">
         <h2 class="aside_boxes_name"  id="work">Work experience:</h2>
        <p>I have experience writing automated tests for the API in postman using JS. there is also experience
         in testing various web projects.</p>
     </section>
 
-
-    <section class="main_box">
-        <h2 class="aside_boxes_name" id="code">Code Examples:</h2>
-        <pre>
+        <section class="main_box code">
+            <h2 class="aside_boxes_name" id="code">Code Examples:</h2>
+            <pre>
             <code>
         let jsonData = pm.response.json();
         for (let i=0; i&lt;jsonData.length; i++){
@@ -169,7 +168,7 @@
         }});
         };</code>
         </pre>
-    </section>
+        </section>
 
 </main>
     </div>
