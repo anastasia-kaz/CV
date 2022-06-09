@@ -559,7 +559,7 @@ li, a {
     margin-bottom: 5px;
 }
 
-.aside_box_contact_list a:hover {
+a:hover {
     color: rgba(60, 60, 63, 0.67);
 }
 
