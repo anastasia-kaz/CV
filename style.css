@@ -495,12 +495,6 @@ header {
     bottom: 0;
 }
 
-
-
-
-
-
-
 .aside_boxes {
     display: flex;
     flex-direction: column;
@@ -752,6 +746,22 @@ footer {
         z-index: 11;
     }
 
+
+    button.burger_btn.open .burger {
+        display: none;
+        position: fixed;
+    }
+
+    .burger_menu.burger.header_nav_active {
+        position: fixed;
+    }
+
+    .nav_menu_closed {
+    }
+
+    button.burger_btn:not(.open) .nav_menu_closed {
+        display: none;
+    }
     .nav_menu_closed_line{
         display: block;
         width: 100%;
